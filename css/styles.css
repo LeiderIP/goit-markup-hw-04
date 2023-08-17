@@ -201,10 +201,6 @@
     height: 70px;
 }
 
-.icon:hover{
-    fill: red;
-}
-
 .icon_box{
     display: flex;
     justify-content: center;
