@@ -38,7 +38,8 @@
 }
 
 .focus_tab:focus{
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--detail-color);
 }
 
 .tab:focus{
@@ -118,6 +119,10 @@
 }
 
 /* title */
+.portfolio{
+    display: none;
+}
+
 .title{
     background-image: linear-gradient(to bottom,
     rgba(47, 48, 58, 0.4),
