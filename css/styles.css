@@ -42,14 +42,9 @@
     color: var(--detail-color);
 }
 
-.tab:focus{
+.button_tab:focus{
     color: var(--primary-color);
     background-color: var(--detail-color);
-}
-
-.tab_svg:focus{
-    fill: var(--detail-color);
-    background-color: var(--primary-color);
 }
 
 .img {
@@ -79,7 +74,7 @@
     margin-right: 93px;
 }
 
-.button_nav .button_links{
+.button_links{
     color: var(--font-color);
     cursor: pointer ;
     font-weight: 500;
@@ -96,11 +91,12 @@
     gap: 50px;
 }
 
-.button_nav .button_links:hover{
+.button_links:hover,
+.button_links:focus{
     color: var(--primary-color);
 }
 
-.button_nav .current {
+.current {
     color: var(--primary-color);
 }
 
@@ -109,12 +105,20 @@
     align-items: center;
 }
 
-.icon_header:hover{
+.icon_header:hover,
+.contacts_link:hover,
+.icon_phone:hover,
+.icon_email:hover,
+.icon_header:focus,
+.contacts_link:focus,
+.icon_phone:focus,
+.icon_email:focus{
     fill: var(--primary-color);
     cursor: pointer;
+    color: var(--primary-color);
 }
 
-.icon_mail{
+.icon_email{
     width: 16px;
     height: 12px;
     margin-right: 10px;
@@ -137,10 +141,6 @@
     cursor: pointer ;
     font-weight: 500;
     line-height: 1.17;
-}
-
-.contacts_link:hover{
-    color:var(--primary-color);
 }
 
 /* title */
@@ -189,7 +189,7 @@
     line-height: 1.87;
     border: none;
     border-radius: 4px;
-    padding: 10px 2px;
+    padding: 10px 32px;
 }
 
 .button_title:hover{
@@ -332,7 +332,8 @@
     height: 44px;
 }   
 
-.icon_social_list:hover{
+.icon_social_list:hover,
+.icon_social_list:focus{
     cursor: pointer;
     background-color: var(--primary-color);
     fill: var(--detail-color);
@@ -373,7 +374,8 @@
     height: 52px;
 }
 
-.clients_icon_bg:hover{
+.clients_icon_bg:hover,
+.clients_icon_bg:focus{
     border: 1px solid var(--primary-color);
     fill: var(--primary-color);
 }
@@ -397,7 +399,8 @@
     margin-bottom: 9px;
 }
 
-.address_map:hover{
+.address_map:hover,
+.address_map:focus{
     color:var(--primary-color);
 }
 
@@ -448,7 +451,8 @@
     width: 44px;
 }
 
-.footer_icon_list:hover{
+.footer_icon_list:hover,
+.footer_icon_list:focus{
     cursor: pointer;
     background-color: var(--primary-color);
     fill: var(--detail-color);
